@@ -1,0 +1,18 @@
+[project]
+name = "local-obsidian-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.10.0",
+    "flask>=3.1.0",
+    "llama-cpp-python>=0.3.7",
+    "sentence-transformers>=3.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=9.0.2",
+]
