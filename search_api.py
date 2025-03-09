@@ -17,7 +17,7 @@ with open("index/filenames.pkl", "rb") as f:
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # LM Studio API URL
-LM_STUDIO_API_URL = "http://localhost:8080/v1/completions"
+LM_STUDIO_API_URL = "http://localhost:1234/v1/completions"
 
 app = Flask(__name__)
 
